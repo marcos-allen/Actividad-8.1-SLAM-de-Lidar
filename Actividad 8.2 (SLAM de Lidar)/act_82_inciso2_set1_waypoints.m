@@ -40,28 +40,28 @@ attachLidarSensor(viz,lidar);
 
 % Create waypoints
 waypoints = [initPose(1:2)';
-             8 15; %auxiliar
+             8 15; %intermedio
              6.25 14;
-             2 14; %auxiliar
-             2 9; %auxiliar
+             2 14; %intermedio
+             2 9; %intermedio
              6.25 9;
-             8 6.5; %auxiliar
-             8 4.5; %auxiliar
+             8 6.5; %intermedio
+             8 4.5; %intermedio
              6.25 4;
-             10 4.5; %auxiliar
+             10 4.5; %intermedio
              12.5 4;
-             13.5 5.5; %auxiliar
+             13.5 5.5; %intermedio
              12.5 9;
-             13.5 5.5; %auxiliar
+             13.5 5.5; %intermedio
              18.75 4;
              25 4;
-             16 5; %auxiliar
+             16 5; %intermedio
              18.75 9;
              25 9;
              25 14;
              25 19;
              18.75 19;
-             16 16; %auxiliar
+             16 16; %intermedio
              18.75 14;
              12.5 14;
              12.5 19];

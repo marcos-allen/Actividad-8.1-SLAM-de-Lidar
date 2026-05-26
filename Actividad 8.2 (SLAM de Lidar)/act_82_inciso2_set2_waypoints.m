@@ -40,19 +40,19 @@ attachLidarSensor(viz,lidar);
 
 % Create waypoints
 waypoints = [initPose(1:2)';
-             19.5 19; %auxiliar
-             16 16; %auxiliar
-             9 14.5; %auxiliar
-             8 15.5; %auxiliar
+             19.5 19; %intermedio
+             16 16; %intermedio
+             9 14.5; %intermedio
+             8 15.5; %intermedio
              3 18;
-             8 15; %auxiliar
-             3 14; %auxiliar
-             1.5 9; %auxiliar
-             8 6.5; %auxiliar
-             8 1.5; %auxiliar
+             8 15; %intermedio
+             3 14; %intermedio
+             1.5 9; %intermedio
+             8 6.5; %intermedio
+             8 1.5; %intermedio
              7 2;
-             9 4.5; %auxiliar
-             24 4.5 %auxiliar
+             9 4.5; %intermedio
+             24 4.5 %intermedio
              24 1];
 
 % Pure Pursuit Controller
